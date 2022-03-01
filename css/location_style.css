@@ -1,0 +1,58 @@
+.loaction-content-container{
+  width: 80%;
+  height: 50%;
+  margin: 5% 10%;
+}
+
+.img-container{
+  width:100%;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.side-search-bar{
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  top:50%;
+  left: 10%;
+  z-index: 1;
+  border: 1px solid black;
+  background-color: white;
+}
+@media only screen and (max-width: 47.9375em){
+  .side-search-bar{
+    display: none;
+  }
+}
+.location-description{
+  text-align: center;
+  border-bottom: 1px solid darkgrey;
+  padding-bottom: 7px;
+  position: absolute;
+  top:0%;
+  width: 100%;
+  height: 15%;
+  left:0%;
+}
+
+.search-inputbox{
+  width: 70%;
+  height: 15%;
+  position: absolute;
+  top:40%;
+  padding-left: 2%;
+  margin-left: 15%;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+}
+
+.content-container{
+  width: 80%;
+  height: 50%;
+  margin: 5% 10%;
+}

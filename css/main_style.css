@@ -1,0 +1,81 @@
+.main-content-container{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-content-container img{
+  max-width: 100%;
+  height: auto;
+}
+.main-title{
+  font-size:200%;
+  color:cadetblue;
+  text-align: center;
+  padding:2% 0%;
+  border-top: 4px double cadetblue;
+  border-bottom: 4px double cadetblue;
+  transition-property: color background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.main-title:hover{
+  background-color:cadetblue;
+  color:cornsilk;
+  border-top: 4px double cornsilk;
+  border-bottom: 4px double cornsilk;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+  height: 100%;
+}
+.sidebar{
+  position:fixed;
+  left:-100px;
+  top:30%;
+  height:200px;
+  width: 250px;
+}
+.sidebar:hover{
+  animation-name:silde;
+  animation-duration:1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: none;
+  animation-direction:normal;
+}
+@keyframes silde {
+  100%{
+    left:20px;
+    transform: scale(1.2, 1.2);
+  }
+}
+.card{
+  border-radius: 8px;
+  background-color:white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  width: 40%;
+  height: 100%;
+  margin: 5%;
+  padding-left:2%;
+  padding-bottom:2%;
+}
+.card-header{
+  font-size: 25px;
+  color:rgb(51, 51, 51);
+  margin: 4% 0%;
+  font-weight: bold;
+}
+.card-content{
+  font-size: 18px;
+  color: rgb(77, 77, 77);
+  margin: 2% 0%;
+  font-weight: bold;
+}

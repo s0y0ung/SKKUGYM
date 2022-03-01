@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone One');
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+@import url('https://fonts.googleapis.com/css?family=Nanum Pen Script');
+
+.canceled-text{
+    text-decoration:line-through;
+}
+.listed-text{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid black;
+}
+.none-decorated{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header-text{
+    font-size: 15px;
+    margin-right: 3%;
+}
+.nomargin{
+    margin:0%;
+    font-family: 'Paytone One', sans-serif;
+}
+.checkbox-label{
+    font-size: 20px;
+}
+.underbar{
+    text-decoration: underline;
+}
+.title{
+    font-size: 25px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.sungkyunkwan{
+    font-size: 300%;
+    font-family: 'Nanum Pen Script', sans-serif;
+}
